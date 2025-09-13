@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://urban-waffle-jx775pqg49cjg-3001.app.github.dev/api',
+  baseURL: 'http://localhost:3001/api',
   timeout: 10000,
 });
 
